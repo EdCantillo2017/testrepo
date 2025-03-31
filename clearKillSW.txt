@@ -1,0 +1,6 @@
+#
+# Add only the engine commands without the RSM wrapper (and a dummy checksum)
+#    <ResponseLength> <OpCode> [<Payload>] <0xFF>
+#
+02H 78H 01H FFH 
+02H F5H FFH FFH FFH 
